@@ -29,7 +29,7 @@ The Loan dataset consists of information on the loan structure, the borrower, an
 - Split the dataset into training and testing sets
 
 
-## Exploratoru Analysis
+## Exploratory Analysis
 - Generated a correlation matrix between the numeric columns and explored how the columns are positively and negatively correlated with each other
 - Segmented data by the purpose of the loan and visualized how the relationships between numerical variables change across distinct categories
 - Created histograms for numeric columns with a color element to segment the bars by “not_fully_paid” loans
@@ -41,7 +41,7 @@ In training and evaluating the models, I accounted for:
 -	 the class imbalance in the target variable  that has fewer examples of loans not fully paid
 -	the importance of accurately predicting whether a loan will not be paid back rather than if a loan is paid
 
-I followed the steps below for building the models:
+These are the steps for building the models:
 - train a list of models, in this case Logistic Regression, Random Forest and Gradient Boosting
 - calculate the evaluation metrics including recall, precision and f1_score
 - print out the confusion matrix
