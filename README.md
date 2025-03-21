@@ -51,4 +51,9 @@ These are the steps for building the models:
 - plot precision-recall curve which allows us to visualize these metrics at various threshold levels and observe the tradeoff between the two
 
 
+![Confusion Matrix](ml1_cm.png)
+<br/>
 
+
+![Confusion Matrix resample](ml1_cm_resample.png)
+<br/>
