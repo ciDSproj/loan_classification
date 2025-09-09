@@ -1,4 +1,4 @@
-# Credit Risk Analysis 
+# Credit Risk Analysis - Loan Classification
 The goal of this project was to build a classifier to predict whether a loan will be paid back, based on a dataset containing information on the loan structure and the borrower. After a thorough data analysis, I built several classification models. In training and evaluating the model, I accounted for the class imbalance in the target variable  that has fewer examples of loans not fully paid.
 
 
